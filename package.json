@@ -2,7 +2,9 @@
   "name": "@rafikidota/http-exceptions",
   "version": "0.0.4",
   "description": "HTTP Exceptions",
-  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "http",
     "exceptions"
@@ -11,7 +13,8 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "repository": {
-    "url": "https://github.com/rafikidota/http-exceptions.git"
+    "type": "git",
+    "url": "git+https://github.com/rafikidota/http-exceptions.git"
   },
   "author": "rafiki <71207415+rafikidota@users.noreply.github.com>",
   "license": "MIT",
