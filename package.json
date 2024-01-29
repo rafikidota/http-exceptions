@@ -1,6 +1,6 @@
 {
   "name": "@rafikidota/http-exceptions",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "HTTP Exceptions",
   "publishConfig": {
     "access": "public"
