@@ -1,13 +1,18 @@
 {
   "name": "@rafikidota/http-exceptions",
   "version": "0.0.7",
-  "description": "HTTP Exceptions",
+  "description": "My own http exceptions library with blackjacks and hookers",
   "publishConfig": {
     "access": "public"
   },
   "keywords": [
     "http",
-    "exceptions"
+    "exceptions",
+    "bad request",
+    "unauthorized",
+    "forbidden",
+    "not found",
+    "internal server error"
   ],
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
