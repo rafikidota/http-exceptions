@@ -1,9 +1,9 @@
-import * as HttpException from './http-exception';
-import * as BadRequestException from './bad-request';
-import * as NotFoundException from './not-found';
-import * as ForbiddenException from './forbidden';
-import * as UnauthorizedException from './unauthorized';
-import * as InternalServerErrorException from './internal-server-error';
+import HttpException from './http-exception';
+import BadRequestException from './bad-request';
+import NotFoundException from './not-found';
+import ForbiddenException from './forbidden';
+import UnauthorizedException from './unauthorized';
+import InternalServerErrorException from './internal-server-error';
 
 export {
   HttpException,
