@@ -1,4 +1,4 @@
-class HttpException extends Error {
+export default class HttpException extends Error {
   /**
    * @param {string} message - exception message.
    * @param {number} [status=500] - http status code.
@@ -11,5 +11,3 @@ class HttpException extends Error {
     this.status = status || 500;
   }
 }
-
-export default HttpException;
