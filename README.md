@@ -20,9 +20,9 @@ yarn add @rafikidota/http-exceptions
 pnpm add @rafikidota/http-exceptions
 ```
 
-## Using `@rafikidota/http-exceptions` with Express
+## Using http exceptions with Express
 
-The following JavaScript code snippet demonstrates an example of using the `@rafikidota/http-exceptions` library in conjunction with the Express framework. This code sets up a basic Express server and showcases how to handle HTTP exceptions using the library.
+The following JavaScript code snippet demonstrates an example of using the http exceptions library in conjunction with the Express framework. This code sets up a basic Express server and showcases how to handle HTTP exceptions using the library.
 
 ```js
 const express = require('express');
