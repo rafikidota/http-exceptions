@@ -1,6 +1,6 @@
 {
   "name": "@rafikidota/http-exceptions",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "My own http exceptions library with blackjacks and hookers",
   "publishConfig": {
     "access": "public"
