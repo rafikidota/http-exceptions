@@ -6,8 +6,9 @@
     "access": "public"
   },
   "keywords": [
-    "http",
     "exceptions",
+    "error handling",
+    "http exceptions",
     "bad request",
     "unauthorized",
     "forbidden",
