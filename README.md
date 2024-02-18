@@ -78,7 +78,7 @@ app.get('/internal-server-error', (req, res) => {
 });
 ```
 
-## Handling errors
+## Error handling
 ```js
 app.use((error, req, res, next) => {
     const { name, message, status } = error;
