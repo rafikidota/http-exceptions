@@ -7,6 +7,7 @@ import NotFoundException from './4xx/404-not-found';
 import MethodNotAllowedException from './4xx/405-method-not-allowed';
 import UnsupportedMediaTypeException from './4xx/415-unsupported-media-type';
 import InternalServerErrorException from './5xx/500-internal-server-error';
+import NotImplementedException from './5xx/501-not-implemented';
 
 export {
   HttpException,
@@ -17,5 +18,6 @@ export {
   NotFoundException,
   MethodNotAllowedException,
   UnsupportedMediaTypeException,
-  InternalServerErrorException
+  InternalServerErrorException,
+  NotImplementedException
 };

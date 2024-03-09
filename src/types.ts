@@ -7,6 +7,7 @@ import NotFoundException from './exceptions/4xx/404-not-found';
 import MethodNotAllowedException from './exceptions/4xx/405-method-not-allowed';
 import UnsupportedMediaTypeException from './exceptions/4xx/415-unsupported-media-type';
 import InternalServerErrorException from './exceptions/5xx/500-internal-server-error';
+import NotImplementedException from './exceptions/5xx/501-not-implemented';
 
 export type HttpExceptionType = typeof HttpException;
 export type BadRequestExceptionType = typeof BadRequestException;
@@ -17,3 +18,4 @@ export type NotFoundExceptionType = typeof NotFoundException;
 export type MethodNotAllowedExceptionType = typeof MethodNotAllowedException;
 export type UnsupportedMediaTypeExceptionType = typeof UnsupportedMediaTypeException;
 export type InternalServerErrorExceptionType = typeof InternalServerErrorException;
+export type NotImplementedExceptionExceptionType = typeof NotImplementedException;
