@@ -17,7 +17,7 @@ export default class UnsupportedMediaTypeException extends HttpException {
      * A descriptive message for the exception.
      * @type {string}
      */
-    super(message, 405);
+    super(message, 415);
     /**
      * The name of the exception.
      * @type {string}
