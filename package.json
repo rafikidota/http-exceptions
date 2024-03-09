@@ -27,7 +27,7 @@
   "scripts": {
     "build": "tsup",
     "prebuild": "rimraf dist",
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint . --ext .ts --fix",
     "format": "prettier --write \"**/*.ts\"",
     "prepublishOnly": "rimraf dist && npm run lint && npm run build"
   },
