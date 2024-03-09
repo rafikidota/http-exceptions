@@ -17,7 +17,7 @@ export default class PaymentRequiredException extends HttpException {
     * A descriptive message for the exception.
     * @type {string}
     */
-    super(message, 400);
+    super(message, 402);
     /**
     * The name of the exception.
     * @type {string}
