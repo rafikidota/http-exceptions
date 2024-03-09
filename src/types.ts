@@ -10,6 +10,9 @@ export type PaymentRequiredExceptionType = typeof PaymentRequiredException;
 import NotFoundException from './exceptions/4xx/not-found';
 export type NotFoundExceptionType = typeof NotFoundException;
 
+import MethodNotAllowedException from './exceptions/4xx/method-not-allowed';
+export type MethodNotAllowedExceptionType = typeof MethodNotAllowedException;
+
 import ForbiddenException from './exceptions/4xx/forbidden';
 export type ForbiddenExceptionType = typeof ForbiddenException;
 

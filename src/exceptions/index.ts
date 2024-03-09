@@ -5,11 +5,13 @@ import NotFoundException from './4xx/not-found';
 import ForbiddenException from './4xx/forbidden';
 import UnauthorizedException from './4xx/unauthorized';
 import InternalServerErrorException from './5xx/internal-server-error';
+import MethodNotAllowedException from './4xx/method-not-allowed';
 
 export {
   HttpException,
   BadRequestException,
   PaymentRequiredException,
+  MethodNotAllowedException,
   NotFoundException,
   ForbiddenException,
   UnauthorizedException,
