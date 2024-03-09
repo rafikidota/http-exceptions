@@ -5,6 +5,7 @@ import PaymentRequiredException from './4xx/402-payment-required';
 import ForbiddenException from './4xx/403-forbidden';
 import NotFoundException from './4xx/404-not-found';
 import MethodNotAllowedException from './4xx/405-method-not-allowed';
+import UnsupportedMediaTypeException from './4xx/415-unsupported-media-type';
 import InternalServerErrorException from './5xx/500-internal-server-error';
 
 export {
@@ -15,5 +16,6 @@ export {
   ForbiddenException,
   NotFoundException,
   MethodNotAllowedException,
+  UnsupportedMediaTypeException,
   InternalServerErrorException
 };
