@@ -1,4 +1,4 @@
-import HttpException from '../http-exception';
+import { HttpException } from '../base-expection';
 
 /**
  * Class representing an exception for HTTP requests resulting in a 501 Not Implemented Error.
