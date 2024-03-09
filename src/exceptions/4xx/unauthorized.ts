@@ -1,14 +1,14 @@
-import HttpException from './http-exception';
+import HttpException from '../http-exception';
 
 /**
- * Class representing an exception for HTTP requests resulting in a 404 Not Found error.
+ * Class representing an exception for HTTP requests resulting in a 401 Unauthorized error.
  *
  * @class
  * @extends HttpException
  */
-export default class NotFoundException extends HttpException {
+export default class UnauthorizedException extends HttpException {
   /**
-   * Creates an instance of NotFoundException.
+   * Creates an instance of UnauthorizedException.
    *
    * @param {string} message - A descriptive message for the exception.
    */
@@ -17,12 +17,12 @@ export default class NotFoundException extends HttpException {
      * A descriptive message for the exception.
      * @type {string}
      */
-    super(message, 404);
+    super(message, 401);
 
     /**
      * The name of the exception.
      * @type {string}
      */
-    this.name = 'NotFoundException';
+    this.name = 'UnauthorizedException';
   }
 }

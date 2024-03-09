@@ -1,4 +1,4 @@
-import HttpException from './http-exception';
+import HttpException from '../http-exception';
 
 /**
  * Class representing an exception for HTTP requests with a 403 Forbidden error.
