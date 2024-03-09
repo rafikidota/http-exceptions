@@ -4,6 +4,9 @@ export type HttpExceptionType = typeof HttpException;
 import BadRequestException from './exceptions/4xx/bad-request';
 export type BadRequestExceptionType = typeof BadRequestException;
 
+import PaymentRequiredException from './exceptions/4xx/payment-required';
+export type PaymentRequiredExceptionType = typeof PaymentRequiredException;
+
 import NotFoundException from './exceptions/4xx/not-found';
 export type NotFoundExceptionType = typeof NotFoundException;
 
