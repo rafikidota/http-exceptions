@@ -1,5 +1,4 @@
 import isHttpError from '../../util/status-code';
-import { InternalServerErrorException } from '../5xx';
 
 /**
  * Class representing a generic HTTP exception.
@@ -22,7 +21,7 @@ export default class HttpException extends Error {
    */
   constructor(message: string = 'Something went wrong', status: number = 500) {
     if (!isHttpError(status)) {
-      throw new InternalServerErrorException(`Invalid status code ${status}`);
+      throw new Error(`Invalid status code ${status}`);
     }
 
     /**
