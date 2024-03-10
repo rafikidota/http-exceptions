@@ -1,3 +1,6 @@
+import isHttpError from '../../util/status-code';
+import { InternalServerErrorException } from '../5xx';
+
 /**
  * Class representing a generic HTTP exception.
  *
@@ -14,10 +17,14 @@ export default class HttpException extends Error {
   /**
    * Creates an instance of HttpException.
    *
-   * @param {string} message - Descriptive message for the exception.
+   * @param {string} [message=Something went wrong] - Descriptive message for the exception.
    * @param {number} [status=500] - HTTP status code.
    */
-  constructor(message: string, status?: number) {
+  constructor(message: string = 'Something went wrong', status: number = 500) {
+    if (!isHttpError(status)) {
+      throw new InternalServerErrorException(`Invalid status code ${status}`);
+    }
+
     /**
      * Descriptive message for the exception.
      * @type {string}
@@ -34,6 +41,6 @@ export default class HttpException extends Error {
      * HTTP status code associated with the exception.
      * @type {number}
      */
-    this.status = status || 500;
+    this.status = status;
   }
 }
