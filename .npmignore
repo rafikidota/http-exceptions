@@ -6,4 +6,8 @@ tsup.config.ts
 
 bender.png
 
+.eslintrc.json
+.prettierignore
+.prettierrc.json
+
 yarn.lock
