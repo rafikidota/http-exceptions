@@ -1,5 +1,4 @@
-export * from './500-internal-server-error';
-export * from './501-not-implemented';
-export * from './502-bad-gateway';
-export * from './503-service-unavailable';
-export * from './504-gateway-timeout';
+import InternalServerErrorException from './500-internal-server-error';
+import NotImplementedException from './501-not-implemented';
+
+export { InternalServerErrorException, NotImplementedException };
